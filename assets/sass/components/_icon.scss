@@ -1,0 +1,29 @@
+///
+/// Client 002 by HUWAN STUDIOS
+/// https://slogpresents.myportfolio.com/work | @HUWANSTUDIOS
+/// Free for personal and commercial use under the CCA 3.0 license (https://slogpresents.myportfolio.com/work/license)
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
+		}
+	}
